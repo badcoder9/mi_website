@@ -101,7 +101,44 @@ class GE {
         await this.regTerms.click()
         await this.submitBtnRegister.click()
     }
+    get loginCloseBtn(){
+        return $('div[class="animation-content"] > .modal-close')
+    }
 
+    // search
+    get searchField(){
+        return $('.autocomplete input[name="q"]')
+    }
+    get predictiveResults(){
+        return $('.autocomplete .dropdown-menu')
+    }
+    get breadcrumbsLocation(){
+        return $('.breadcrumb .is-active')
+    }
+
+    async performSearchByEnter(){
+        await this.searchField.setValue('redmi')
+        await browser.keys('Enter')
+    }
+    async performSearchByPredictive(){
+        await this.searchField.setValue('xiaomi')
+        await this.predictiveResults.waitForDisplayed()
+        
+    }
+
+    // menu navigation
+    get navItems (){
+        return $$('#mainnav .navbar-item > a')
+    }
+
+
+    // footer newsletter
+    get newsletterField(){
+        return $('#mce-EMAIL')
+    }
+    get newsletterSubmitBtn(){
+        return $('#mc-embedded-subscribe')
+    }
     
 }
 
