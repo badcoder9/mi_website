@@ -4,12 +4,12 @@ const ge = require('../pageObject/ge')
 
 describe('global elements test suite', async () => {
     //search
-    it('submit search via enter', async ()=> {
+    it('submit search via enter -search', async ()=> {
         await browser.url('/')
         await ge.performSearchByEnter()
         expect(await ge.breadcrumbsLocation).toHaveText('Pretraga')
     })
-    it('submit search via predictive', async ()=> {
+    it('submit search via predictive -search', async ()=> {
         await browser.url('/')
         await ge.performSearchByPredictive()
         const results = await ge.predictiveResults.$$('a')
@@ -30,7 +30,9 @@ describe('global elements test suite', async () => {
         await browser.url('/')
         await ge.navItems[1].moveTo()
         const dropdown = await ge.navItems[1].nextElement()
-        expect(await dropdown).toBeDisplayed() 
+        expect(await dropdown).toBeDisplayed()
+
+        // const dropdown = await ge.navdropdown[1]
 
         const dropdowndCategoryLinks = await dropdown.$$('.mm-column > a')
         const catLinkNames = dropdowndCategoryLinks.map(async category => await category.$('p').getText())
@@ -45,6 +47,8 @@ describe('global elements test suite', async () => {
         await ge.navItems[1].moveTo()
         const dropdown = await ge.navItems[1].nextElement()
         expect(await dropdown).toBeDisplayed() 
+
+        // const dropdown = await ge.navdropdown[1]
 
         const dropdownProductLinks = await dropdown.$$('.c-product-cards .product-name')
         const prodLinkNames = dropdownProductLinks.map(async product => await product.$('a').getText())
@@ -65,6 +69,28 @@ describe('global elements test suite', async () => {
         await browser.switchToWindow(handles[1])
         expect(await $('h1.masthead')).toHaveTextContaining('Mi Srbija Web Site List')
     })
-    //footer newsletter end    
+    //footer newsletter end 
+    
+    it('slider - change slide via arrow -hpSlider', async () => {
+        await browser.url('/')
+        const startingPoint = await browser.getUrl()
+        // console.log('testing base url - '+startingPoint)
+        await ge.changeSlide()
+        // console.log('testing changed url - '+await browser.getUrl())
+        chai.should(await browser.getUrl()).not.equal(startingPoint)
+    })
+
+    it('slider - change slide via dot -hpSlider', async () => {
+        await browser.url('/')
+        const startingPoint = await browser.getUrl()
+        // console.log('testing base url - '+startingPoint)
+        let random = await Math.floor(Math.random() * await ge.carouselDotsBtns.length)
+        // console.log(await ge.carouselDotsBtns.length)
+        // console.log('random nuber is: ' + await random)
+        await ge.carouselDotsBtns[random].click()
+        await ge.carouselSlideLinks[random].click()
+        // console.log('testing changed url - '+ await browser.getUrl())
+        chai.should(await browser.getUrl()).not.equal(startingPoint)
+    })
     
 })

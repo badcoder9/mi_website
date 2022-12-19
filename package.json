@@ -15,7 +15,11 @@
         "wdio-chromedriver-service": "^8.0.1"
     },
     "scripts": {
-        "wdio": "wdio run ./wdio.conf.js"
+        "wdio": "wdio run ./wdio.conf.js",
+        "wdioLogin": "wdio run ./wdio.conf.js --suite loginTest",
+        "wdioSearch": "wdio run ./wdio.conf.js --mochaOpts.grep -search",
+        "wdioHp": "wdio run ./wdio.conf.js --mochaOpts.grep hpSlider",
+        "wdioPlp": "wdio run ./wdio.conf.js --suite plpTest"
     },
     "dependencies": {
         "chai": "^4.3.7"

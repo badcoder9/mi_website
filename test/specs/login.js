@@ -40,7 +40,7 @@ describe('login test suite', async () => {
             expect(await account).toExist()
         })
         it('my account - trigger dropdown', async () => {
-            await browser.url('/')
+            // await browser.url('/')
             await login.accountHoverEl.waitForExist()
             await login.accountHoverEl.moveTo()
             expect(await login.accountDropdown).toBeDisplayed()
