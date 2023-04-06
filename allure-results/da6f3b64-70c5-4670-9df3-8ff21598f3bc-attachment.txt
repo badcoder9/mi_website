@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".cart-box-container\"}\n  (Session info: chrome=111.0.5563.148)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x004EDCE3]\n\t(No symbol) [0x004839D1]\n\t(No symbol) [0x00394DA8]\n\t(No symbol) [0x003C019F]\n\t(No symbol) [0x003C03AB]\n\t(No symbol) [0x003EEE62]\n\t(No symbol) [0x003DAF14]\n\t(No symbol) [0x003ED57C]\n\t(No symbol) [0x003DACC6]\n\t(No symbol) [0x003B6F68]\n\t(No symbol) [0x003B80CD]\n\tGetHandleVerifier [0x00763832+2506274]\n\tGetHandleVerifier [0x00799794+2727300]\n\tGetHandleVerifier [0x0079E36C+2746716]\n\tGetHandleVerifier [0x00596690+617600]\n\t(No symbol) [0x0048C712]\n\t(No symbol) [0x00491FF8]\n\t(No symbol) [0x004920DB]\n\t(No symbol) [0x0049C63B]\n\tBaseThreadInitThunk [0x75ED00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77BB7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77BB7B8E+238]\n"
+}

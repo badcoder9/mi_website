@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#dropdown-menu-account a[href=\"/account/?tab=addresses\"]"
+}

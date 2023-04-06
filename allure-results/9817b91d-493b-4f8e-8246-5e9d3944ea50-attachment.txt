@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".range-input > input[placeholder*=\"min\"]"
+}

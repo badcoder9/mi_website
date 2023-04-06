@@ -1,5 +1,5 @@
 const chai = require("chai")
-const forgotPW = require('../pageObject/forgotPw')
+const forgotPW = require('../pageobjects/forgotPw')
 
 describe('forgot password test suite', async () => {
     it('forgot pw popop true', async () => {

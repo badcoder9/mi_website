@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"field is-floating-in-label\"][label[contains(text(),\"Lozinka\")]]"
+}

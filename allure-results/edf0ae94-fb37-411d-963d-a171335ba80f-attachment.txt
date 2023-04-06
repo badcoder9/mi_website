@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"box product-box\"][div[@class=\"description\"][h6[small[a[contains(@href, '/audio/zvucnici')]]]]]/div[@class=\"compare-button\"]"
+}

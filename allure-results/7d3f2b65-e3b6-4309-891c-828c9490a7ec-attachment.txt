@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".hp-slides .carousel-items .carousel-item a"
+}

@@ -1,6 +1,6 @@
 const chai = require("chai")
-const ge = require('../pageObject/ge')
-const reg = require('../pageObject/register')
+const ge = require('../pageobjects/ge')
+const reg = require('../pageobjects/register')
 
 const fs = require('fs')
 

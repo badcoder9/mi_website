@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"voption-name\"][contains(text(),\"Boja\")]/following-sibling::div[@class=\"voption-values\"][1]/div[contains(@class, 'voption-value')]"
+}

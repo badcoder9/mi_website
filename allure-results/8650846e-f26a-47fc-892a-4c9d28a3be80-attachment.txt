@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[action=\"/login\"] input[name=\"login_email\"]"
+}

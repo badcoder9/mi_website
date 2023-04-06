@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"loan-calc\"]/div[@class=\"field\"][label[contains(text(),\"Iznos kredita\")]]/div/input"
+}

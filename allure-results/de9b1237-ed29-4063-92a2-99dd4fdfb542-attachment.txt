@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".availability > .modal\"}\n  (Session info: chrome=111.0.5563.147)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x002DDCE3]\n\t(No symbol) [0x002739D1]\n\t(No symbol) [0x00184DA8]\n\t(No symbol) [0x001B019F]\n\t(No symbol) [0x001B03AB]\n\t(No symbol) [0x001DEE62]\n\t(No symbol) [0x001CAF14]\n\t(No symbol) [0x001DD57C]\n\t(No symbol) [0x001CACC6]\n\t(No symbol) [0x001A6F68]\n\t(No symbol) [0x001A80CD]\n\tGetHandleVerifier [0x00553832+2506274]\n\tGetHandleVerifier [0x00589794+2727300]\n\tGetHandleVerifier [0x0058E36C+2746716]\n\tGetHandleVerifier [0x00386690+617600]\n\t(No symbol) [0x0027C712]\n\t(No symbol) [0x00281FF8]\n\t(No symbol) [0x002820DB]\n\t(No symbol) [0x0028C63B]\n\tBaseThreadInitThunk [0x75ED00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77BB7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77BB7B8E+238]\n\t(No symbol) [0x00000000]\n"
+}

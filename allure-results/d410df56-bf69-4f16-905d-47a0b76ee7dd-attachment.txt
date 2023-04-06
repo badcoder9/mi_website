@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//label[@class=\"b-checkbox checkbox\"]/span[contains(text(),\" Sačuvaj podatke za sledeće naručivanje \")]"
+}

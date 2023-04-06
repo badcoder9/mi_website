@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".range-filter-container .b-slider-track .b-slider-thumb-wrapper:nth-child(2) .b-slider-thumb"
+}

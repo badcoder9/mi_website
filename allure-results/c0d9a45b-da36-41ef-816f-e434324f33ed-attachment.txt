@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".cart-badge-container .cart-qty"
+}

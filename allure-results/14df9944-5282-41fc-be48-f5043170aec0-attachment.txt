@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".compareProducts\"}\n  (Session info: chrome=111.0.5563.147)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x0102DCE3]\n\t(No symbol) [0x00FC39D1]\n\t(No symbol) [0x00ED4DA8]\n\t(No symbol) [0x00F0019F]\n\t(No symbol) [0x00F003AB]\n\t(No symbol) [0x00F2EE62]\n\t(No symbol) [0x00F1AF14]\n\t(No symbol) [0x00F2D57C]\n\t(No symbol) [0x00F1ACC6]\n\t(No symbol) [0x00EF6F68]\n\t(No symbol) [0x00EF80CD]\n\tGetHandleVerifier [0x012A3832+2506274]\n\tGetHandleVerifier [0x012D9794+2727300]\n\tGetHandleVerifier [0x012DE36C+2746716]\n\tGetHandleVerifier [0x010D6690+617600]\n\t(No symbol) [0x00FCC712]\n\t(No symbol) [0x00FD1FF8]\n\t(No symbol) [0x00FD20DB]\n\t(No symbol) [0x00FDC63B]\n\tBaseThreadInitThunk [0x757600F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77537BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77537B8E+238]\n"
+}

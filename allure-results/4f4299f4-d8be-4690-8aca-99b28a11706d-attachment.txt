@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".cart-items .cart-item .ci-name"
+}

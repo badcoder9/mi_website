@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[action=\"/login\"] button[name=\"create_account\"]"
+}

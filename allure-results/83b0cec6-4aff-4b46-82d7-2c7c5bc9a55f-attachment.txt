@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".c-product-cards .product-name"
+}

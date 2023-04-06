@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".carousel-indicator .indicator-item"
+}

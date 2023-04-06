@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//h2[contains(text(),\"Boja\")]/following-sibling::div/div/label[@class=\"b-checkbox checkbox\"]"
+}

@@ -1,5 +1,5 @@
 const chai = require("chai")
-const ge = require('../pageObject/ge')
+const ge = require('../pageobjects/ge')
 
 
 describe('global elements test suite', async () => {

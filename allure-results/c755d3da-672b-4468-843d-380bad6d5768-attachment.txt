@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".modal-card [action=\"/password/email\"] input[type=\"email\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//footer[@class=\"modal-card-foot\"]/button[contains(text(),\"Izbriši\")]"
+}
